@@ -11,49 +11,69 @@ body {
 
 /* Add styles here! */
 
-header, main {
-  padding-left: 264px;
-  padding-bottom: 40px;
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
-header {
-  padding-top: 72px;
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 main {
   height: 100%;
   background-color: hsl(0deg, 0%, 40%);
-  padding-top: 64px;
-  border-top: 8px solid hsl(0deg, 0%, 60%);
+  padding: 64px 0;
 }
 
-.max-width-wrapper {
-  padding: 24px;
-}
-
-header .max-width-wrapper {
-  max-width: 400px;
-}
-
-main .max-width-wrapper {
-  max-width: 800px;
-  background-color: hsl(0deg, 0%, 100%);
-  border-bottom: 8px solid hsl(0deg, 0%, 60%);
-}
-
-.intro-chunk strong {
+strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 800px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  padding: 24px;
+  margin: 0 -24px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .title {
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 .indented-heading {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
   background-color: hsl(45deg, 100%, 50%);
   padding: 16px 32px;
   max-width: fit-content;
-  margin-top: -20px;
+  margin-top: -16px;
   margin-left: -32px;
+  margin-bottom: 1rem;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
